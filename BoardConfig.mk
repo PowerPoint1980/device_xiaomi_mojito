@@ -172,5 +172,6 @@ TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
 
 # Additional
-TARGET_KERNEL_HEADERS := kernel/xiaomi/sm6150
+TARGET_KERNEL_SOURCE := kernel/xiaomi/sm6150
+TARGET_KERNEL_CONFIG := mojito_defconfig
 TARGET_FORCE_PREBUILT_KERNEL := true
