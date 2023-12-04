@@ -92,6 +92,13 @@ TARGET_RECOVERY_DEVICE_MODULES += \
     vendor.qti.hardware.vibrator.impl \
     libqtivibratoreffect
 
+# Additional Props
+TW_Y_OFFSET := 91
+TW_H_OFFSET := -91
+TW_DEFAULT_BRIGHTNESS := 1264
+TW_MAX_BRIGHTNESS := 2047
+TW_BRIGHTNESS_PATH := "/sys/class/backlight/panel0-backlight/brightness"
+
 RECOVERY_LIBRARY_SOURCE_FILES += \
     $(TARGET_OUT_SHARED_LIBRARIES)/libion.so \
     $(TARGET_OUT_SYSTEM_EXT_SHARED_LIBRARIES)/vendor.display.config@1.0.so \
